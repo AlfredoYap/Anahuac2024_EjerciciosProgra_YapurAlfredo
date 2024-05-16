@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+nav > ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #f1f1f1;
+}
+
+li a{
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #555;
+	color: white;
+}
+
+.grid-container-flex{
+	display: flex;
+	flex-direction: column;
+	background-color: purple;
+	font-size: 0.9rem;
+	color: white;
+	margin-top: 1rem;
+	height: 9em;
+}
+
+.grid-conatiner-grid{
+	display: grid;
+	grid-template-columns: 20em;
+	height: 8em;
+	font-size: 1.1rem
+}
+
+@media (min-width: 768px) {
+
+	.grid-container-flex{
+		font-size: 1.3em;
+	}
+	.grid-container-grid{
+		grid-template-columns: none;
+		height: 10em;
+	}
+}
+
+@media (min-width: 1024px) {
+
+	.grid-container-flex{
+		font-size: 2rem;
+	}
+	.grid-container-grid{
+		grid-template-columns: none;
+		height: 12em;
+	}
+}
