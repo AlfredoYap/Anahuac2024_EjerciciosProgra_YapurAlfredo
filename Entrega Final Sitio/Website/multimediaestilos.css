@@ -1,0 +1,40 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+@font-face {
+    font-family: 'Baropus';
+    src: url(fuentes/Baropus.eot);
+    src: local('☺'), url(fuentes/Baropus.woff) format('woff'), url(fuentes/Baropus.svg) format('svg');
+    font-weight: 200;
+    font-style: normal;
+    }
+
+h1{
+    font-family: 'Baropus';
+}
+
+h2{
+    font-family: 'Baropus';
+    margin-left: 1%;
+    color: rgb(255, 76, 204);
+}
+
+.Proyectosmultimedia{
+    background-image: url(img/multimediafondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 3100px;
+    color: aliceblue;
+    font-size: 150%
+}
+
+p{
+    margin-left: 1%;
+}
+
+.proyectosmultimedia{
+    height: 60px;
+}
+
+.proyecto1, .proyecto2, .proyecto3{
+    margin-left: 2%;
+}

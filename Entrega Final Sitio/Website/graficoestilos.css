@@ -1,0 +1,80 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+@font-face {
+    font-family: 'Baropus';
+    src: url(fuentes/Baropus.eot);
+    src: local('☺'), url(fuentes/Baropus.woff) format('woff'), url(fuentes/Baropus.svg) format('svg');
+    font-weight: 200;
+    font-style: normal;
+    }
+
+h1{
+    font-family: 'Baropus';
+}
+
+h2{
+    font-family: 'Baropus';
+    color: rgb(255, 76, 204);
+    margin-left: 1%;
+}
+
+.Proyectosgraficos{
+    height: 4100px;
+    background-image: url(img/fondografico@300x.png);
+    color: aliceblue;
+    font-size: 150%;
+}
+
+.poster{
+    height: 400px;
+    margin-left: 2%;
+}
+
+.enviro1, .enviro2, .enviro3, .enviro4{
+    height: 380px;
+    margin-left: 2%;
+}
+
+.enviro1, .enviro2{
+    margin-bottom: 2%;
+}
+
+.knight1, .knight2, .knight3, .knight4, .knight5, .knight6, .knight6, .knight7, .knight8{
+    height: 200px;
+}
+
+.app1, .app2, .app3, .app4, .app5, .app6, .app7, .app8, .app9, .app9, .app10, .app11, .app12, .app13, .app14{
+    height: 200px;
+}
+
+.proyectosgraficos{
+    height: 60px;
+}
+
+p{
+    margin-left: 1%;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    display: inline-block;
+    margin-left: 1%;
+}
+
+.carrusel{
+    overflow: hidden;
+}
+
+.slides{
+    display: flex;
+}
+
+.slides img{
+    width: auto;
+    height: 60x;
+    transition: transform 0.5s ease-in-out;
+}

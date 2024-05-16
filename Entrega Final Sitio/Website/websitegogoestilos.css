@@ -1,0 +1,255 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+/* CSS Document */
+.logo{
+	height: 200px;
+}
+
+@font-face {
+    font-family: 'Baropus';
+    src: url(fuentes/Baropus.eot);
+    src: local('☺'), url(fuentes/Baropus.woff) format('woff'), url(fuentes/Baropus.svg) format('svg');
+    font-weight: 200;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Starixo';
+    src: url(fuentes/Starixo.eot);
+    src: local('☺'), url(fuentes/Starixo.woff) format('woff'), url(fuentes/Starixo.svg) format('svg');
+    font-weight: 200;
+    font-style: normal;
+    }	
+
+p{
+	font-family: '';
+}
+
+h1{
+	font-family: 'Baropus';
+}
+
+h2{
+	font-family: 'Baropus';
+}
+
+h3{
+	font-family: 'Baropus';
+    text-align: center;
+}
+
+
+button{
+	font-family: 'Starixo';
+	font-size: 12px;
+	padding: 2px;
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header {
+    height: 100vh;
+    /* background-color: blueviolet; */
+}
+
+.perfil {
+    height: 800px;
+    position: relative;
+    left: 300px;
+}
+
+nav {
+    height: 20%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 40px;
+}
+
+.btn-menu {
+    width: 300px;
+    /* background-color: rgb(20, 158, 221); */
+}
+
+.menu1 {
+    margin-right: 100px;
+    padding-bottom: 10px;
+}
+
+.menu2 {
+    margin-right: 155px;
+    padding-bottom: 10px;
+}
+
+.menu3 {
+    margin-right: 210px;
+}
+
+
+.contenido-home {
+    height: 80%;
+    /* background-color: rgb(64, 0, 255); */
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.home1 {
+    height: 100%;
+    width: 60%;
+    /* background-color: darkkhaki; */
+    display: flex;
+    align-items: flex-end;
+}
+
+.home2 {
+    height: 100%;
+    width: 40%;
+    /* background-color: rgb(191, 16, 136); */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.home2 h1, h2 {
+    padding-right: 100px;
+}
+
+.home2 h1 {
+    font-size: 70px;
+    /* background-color: sienna; */
+    text-align: right;
+}
+
+.home2 h2 {
+    padding-bottom: 100px;
+    font-size: 30px;
+}
+
+
+.logo {
+    position: absolute;
+    height: 400px;
+    z-index: 100;
+}
+
+.Sobremi {
+    height: 555px;
+    background-image: url(img/fondo-bio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sobremi{
+    height: 10%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.sobrehistoria{
+    height: 43%;
+    position: absolute;
+    right: 59%;
+    bottom: -56%;
+}
+
+.sobreexperiencia{
+    height: 46%;
+    position: absolute;
+    right: 15px;
+    bottom: -59%;
+}
+
+.sobreaptitudes{
+    height: 20%;
+    position: absolute;
+    bottom: -71%;
+    right: 23.5%;
+}
+
+.Proyectoshome{
+    height: 710px;
+    background-image: url(img/fondoproyectoshome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.sobreproyectos{
+    float: right;
+    height: 8%;
+}
+
+.multimediahome{
+    height: 50%;
+    position: absolute;
+    right: 52%;
+    bottom: -162%;
+}
+
+.graficohome{
+    height: 50%;
+    position: absolute;
+    right: 5%;
+    bottom: -161%;
+}
+
+.titulomultimedia{
+    position: absolute;
+    right: 52%;
+    bottom: -107%;
+    height: 9%;
+}
+
+.titulografico{
+    position: absolute;
+    right: 5%;
+    bottom: -107%;
+    height: 9%;
+}
+
+.botonmultimedia{
+    height: 65%;
+}
+
+.footercontacto{
+    height: 710px;
+    background-image: url(img/footerbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logotelhome{
+    height: 500px;
+    position: absolute;
+    right: 2%;
+    bottom: -275%;
+}
+
+.correohome{
+    height: 150px;
+    position: absolute;
+    right: 35%;
+    bottom: -274%;
+
+}
+
+.redeshome{
+    height: 300px;
+    position: absolute;
+    right: 45%;
+    bottom: -245%;
+}

@@ -1,0 +1,88 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+@font-face {
+    font-family: 'Baropus';
+    src: url(fuentes/Baropus.eot);
+    src: local('☺'), url(fuentes/Baropus.woff) format('woff'), url(fuentes/Baropus.svg) format('svg');
+    font-weight: 200;
+    font-style: normal;
+    }
+
+h1{
+    font-family: 'Baropus';
+}
+
+h2{
+    font-family: 'Baropus';
+}
+
+.Sobrehistoria{
+    height: 300px;
+    background-image: url(img/historiafondo.png);
+    background-size: cover;
+    color: aliceblue;
+    font-size: 150%;
+}
+
+.sobrehistoria{
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+}
+
+p{
+    margin-left: 1%;
+}
+
+.Sobreorigenes{
+    height: 700px;
+    background-image: url(img/fondoorigenes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: 150%;
+}
+
+.sobreorigenes{
+    height: 60px;
+    float: right;
+    margin-bottom: 25px;
+}
+
+h2{
+    margin-left: 1%;
+    color: rgb(255, 76, 204);
+}
+
+p{
+    clear: right;
+}
+
+
+.Sobrecarrera{
+    height: 1350px;
+    background-image: url(img/fondocarrera.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-size: 150%;
+}
+
+.sobrecarrera{
+    height: 60px;
+}
+
+
+
+
+
+.habilidadestecnicas{
+    height: 250px;
+    margin-left: 1%;
+}
+
+.habilidadesinterpersonales{
+    height: 250px;
+    margin-top: 2%;
+    margin-left: 19%;
+}

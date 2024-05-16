@@ -1,0 +1,78 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+@font-face {
+    font-family: 'Baropus';
+    src: url(fuentes/Baropus.eot);
+    src: local('☺'), url(fuentes/Baropus.woff) format('woff'), url(fuentes/Baropus.svg) format('svg');
+    font-weight: 200;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Starixo';
+    src: url(fuentes/Starixo.eot);
+    src: local('☺'), url(fuentes/Starixo.woff) format('woff'), url(fuentes/Starixo.svg) format('svg');
+    font-weight: 200;
+    font-style: normal;
+    }	
+
+h1{
+    font-family: 'Baropus';
+}
+
+h2{
+    font-family: 'Baropus';
+}
+
+.Proyectos{
+    height: 950px;
+    background-image: url(img/fondoproyectos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.proyectos{
+    height: 60px;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    margin-left: 1%;
+}
+
+button{
+	font-family: 'Starixo';
+	font-size: 12px;
+	padding: 2px;
+}
+
+.compmultimedia{
+    height: 400px;
+}
+
+.compgrafico{
+    height: 400px;
+}
+
+.columna{
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.proyectosmultimedia, .proyectosgraficos{
+    margin-bottom: 3%;
+}
+
+.multimedia, .grafico{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.multimedia{
+    margin-left: 5%;
+}
